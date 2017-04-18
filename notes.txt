@@ -1,0 +1,25 @@
+State is a plain JS object
+
+reducer is a function that produce state
+
+{
+	books: [{title: 'HP'},{title: 'PO'}],
+	activeBook: {title: 'JS GOOD PART'}
+}
+
+books: [{title: 'HP'},{title: 'PO'}],
+
+books => State.
+
+[{title: 'HP'},{title: 'PO'}] => Produced by one producer.
+
+reducer produce the value of the state
+
+
+{
+	keyOfState: valueOfState,
+}
+
+valueOfState is produced by Reducer
+
+Changing states is for what action and action creator are.
