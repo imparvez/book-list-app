@@ -23,3 +23,7 @@ reducer produce the value of the state
 valueOfState is produced by Reducer
 
 Changing states is for what action and action creator are.
+
+
+A container is a normal react component that gets bonded to application state
+As state changes, so do the container component.
